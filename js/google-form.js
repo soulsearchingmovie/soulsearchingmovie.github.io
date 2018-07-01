@@ -19,7 +19,7 @@
     } catch(e) {}
 
     form.parentNode.className += ' submitted';
-
+    document.getElementById("contactForm").reset();
     return false;
   }
 }(typeof module === 'undefined' ? window : module.exports);
