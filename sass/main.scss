@@ -1,4 +1,14 @@
-@import "header";
+@import "variables.scss";
+@import "mixins.scss";
+
+@import "global.scss";
+
+@import "header.scss";
+@import "timeline.scss";
+@import "teaser.scss";
+@import "behind-the-sence.scss";
+@import "team.scss";
+@import "contact.scss";
 
 .carousel-item {
   height: 100vh;

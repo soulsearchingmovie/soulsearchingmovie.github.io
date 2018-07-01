@@ -1,0 +1,23 @@
+.navbar-dark {
+  .navbar-brand {
+    color: $color-yellow;
+
+    &:before, &:after {
+      color: $color-yellow;
+    }
+
+    &:hover {
+      color: darken($color-yellow, 15%);
+    }
+  }
+}
+
+.navbar-nav {
+  .nav-item {
+    .nav-link {
+      &:before, &:after {
+        color: $color-yellow;
+      }
+    }
+  }
+}

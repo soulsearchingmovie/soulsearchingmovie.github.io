@@ -1,0 +1,13 @@
+{
+  "name": "SoulSearching",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "samda <muy.samda13@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  }
+}
