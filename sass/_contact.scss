@@ -47,3 +47,17 @@ section#contact {
     @include heading-font;
   }
 }
+
+.btn-primary.disabled {
+  color: #fff;
+  background-color: darken($primary, 20%) !important;
+  border-color: darken($primary, 20%) !important;
+  cursor: not-allowed;
+}
+
+.btn-primary:disabled {
+  color: #fff;
+  background-color: darken($primary, 20%) !important;
+  border-color: darken($primary, 20%) !important;
+  cursor: not-allowed;
+}
