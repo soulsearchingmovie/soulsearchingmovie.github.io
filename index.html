@@ -7,23 +7,11 @@
     <meta name="author" content="">
     <title>Soul Searching - Six feet Under, but it’s still not Over.</title>
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="vendor/gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="vendor/gallery/css/blueimp-gallery.css">
     <link href="css/style.css" rel="stylesheet">
   </head>
 
   <body id="page-top">
-    <!-- gallery dialog -->
-    <div class="row carousel-example">
-      <div id="blueimp-gallery" class="blueimp-gallery">
-        <div class="slides"></div>
-        <h3 class="title"></h3>
-        <a class="prev">‹</a>
-        <a class="next">›</a>
-        <a class="close">×</a>
-        <a class="play-pause"></a>
-        <ol class="indicator"></ol>
-      </div>
-    </div>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Soul Searching</a>
@@ -246,49 +234,15 @@
         </section>
         <section id="behind_the_scenes" class="section--d">
           <h2 class="text-center">Behind the Scenes of Extended Teaser Production, June 2018.</h2>
-          <div class="row">
-            <div class="col-md-3 col-sm-3">
-              <img src="images/behind_the_sences/1.jpg" alt="..." class="img-thumbnail">
-            </div>
-            <div class="col-md-3 col-sm-3">
-              <img src="images/behind_the_sences/2.jpg" alt="..." class="img-thumbnail">
-            </div>
-            <div class="col-md-3 col-sm-3">
-              <img src="images/behind_the_sences/3.jpg" alt="..." class="img-thumbnail">
-            </div>
-            <div class="col-md-3 col-sm-3">
-              <img src="images/behind_the_sences/4.jpg" alt="..." class="img-thumbnail">
-            </div>
-          </div>
-          <br/>
-          <div class="row">
-            <div class="col-md-3 col-sm-3">
-              <img src="images/behind_the_sences/5.jpg" alt="..." class="img-thumbnail">
-            </div>
-            <div class="col-md-3 col-sm-3">
-              <img src="images/behind_the_sences/6.jpg" alt="..." class="img-thumbnail">
-            </div>
-            <div class="col-md-3 col-sm-3">
-              <img src="images/behind_the_sences/7.jpg" alt="..." class="img-thumbnail">
-            </div>
-            <div class="col-md-3 col-sm-3">
-              <img src="images/behind_the_sences/8.jpg" alt="..." class="img-thumbnail">
-            </div>
-          </div>
-          <br/>
-          <div class="row">
-            <div class="col-md-3 col-sm-3">
-              <img src="images/behind_the_sences/9.jpg" alt="..." class="img-thumbnail">
-            </div>
-            <div class="col-md-3 col-sm-3">
-              <img src="images/behind_the_sences/10.jpg" alt="..." class="img-thumbnail">
-            </div>
-            <div class="col-md-3 col-sm-3">
-              <img src="images/behind_the_sences/11.jpg" alt="..." class="img-thumbnail">
-            </div>
-            <div class="col-md-3 col-sm-3">
-              <img src="images/behind_the_sences/12.jpg" alt="..." class="img-thumbnail">
-            </div>
+          <div id="links" class="links"></div>
+          <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+            <div class="slides"></div>
+              <h3 class="title"></h3>
+              <a class="prev">‹</a>
+              <a class="next">›</a>
+              <a class="close">×</a>
+              <a class="play-pause"></a>
+              <ol class="indicator"></ol>
           </div>
         </section>
         <section class="bg-light" id="team">
@@ -1044,7 +998,7 @@
             <div class="row">
               <div class="col-sm-3">
                 <div class="team-member">
-                  <img class="mx-auto rounded-circle" src="https://via.placeholder.com/150x150" alt="">
+                  <img class="mx-auto rounded-circle" src="images/crews/security_guard_2.jpg" alt="">
                   <h4>----</h4>
                   <p class="text-muted">As Security guard</p>
                   <ul class="list-inline social-buttons">
@@ -1523,24 +1477,13 @@
         <p class="m-0 text-center text-white">&copy; Soul Searching Movie 2018</p>
       </div>
     </footer>
-    <div id="links">
-      <a href="images/banana.jpg" title="Banana">
-          <img src="images/behind_the_sences/1.jpg">
-      </a>
-      <a href="images/apple.jpg" title="Apple">
-          <img src="images/behind_the_sences/2.jpg">
-      </a>
-      <a href="images/orange.jpg" title="Orange">
-          <img src="images/behind_the_sences/3.jpg">
-      </a>
-    </div>
+    <script type="text/javascript" src="vendor/gallery/js/blueimp-gallery.min.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
-    <script type="text/javascript" src="vendor/gallery/js/blueimp-gallery.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/google-form.js"></script>
     <script>

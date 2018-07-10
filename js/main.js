@@ -77,4 +77,32 @@
       tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
   });
+
+  // Add gallery images
+  var ArrayPhotos = new Array(12)
+  var carouselLinks = []
+  var linksContainer = $('#links')
+  var baseUrl
+  $.each(ArrayPhotos, function (index) {
+    index = index + 1
+    baseUrl = "images/behind_the_sences/"
+
+    $('<a/>')
+      .append(
+        $('<img>').prop('src', baseUrl + 'small/' + index + '.jpg').prop('class', 'img-galleries')
+      ).prop('href', baseUrl + index + '.jpg')
+      .prop('title', 'soul searching behind the sences')
+      .prop('class', 'img-gallery-thumnail')
+      .attr('data-gallery', '')
+      .appendTo(linksContainer)
+    carouselLinks.push({
+      href: baseUrl + index + '.jpg',
+      title: 'soul searching behind the sences'
+    })
+  })
+  // Initialize the Gallery as image carousel:
+  blueimp.Gallery(carouselLinks, {
+    container: '#blueimp-image-carousel',
+    carousel: true
+  })
 })(jQuery); // End of use strict

@@ -4,6 +4,28 @@
     margin-top: -100px;
     padding-bottom: 50px;
   }
+
+  .img-gallery-thumnail {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    a {
+      img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        height: 100%;
+        width: auto;
+        -webkit-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+                transform: translate(-50%,-50%);
+      }
+    }
+
+  }
+
 }
 
 // Styling for the portfolio section
