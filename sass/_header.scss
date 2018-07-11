@@ -11,3 +11,20 @@
     }
   }
 }
+
+
+@media(min-width: 768px) {
+  .carousel-header {
+    .carousel-item {
+      height: 20vh;
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  .carousel-header {
+    .carousel-item {
+      height: 20vh;
+    }
+  }
+}
