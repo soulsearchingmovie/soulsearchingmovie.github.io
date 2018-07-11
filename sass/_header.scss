@@ -12,19 +12,35 @@
   }
 }
 
-
 @media(min-width: 768px) {
-  .carousel-header {
-    .carousel-item {
-      height: 20vh;
-    }
+  .carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 }
 
 @media(max-width: 768px) {
   .carousel-header {
     .carousel-item {
-      height: 20vh;
+      height: 40vh;
+      background: no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
     }
   }
 }
+
+// @media(max-width: 768px) {
+//   .carousel-header {
+//     .carousel-item {
+//       height: 20vh;
+//     }
+//   }
+// }
