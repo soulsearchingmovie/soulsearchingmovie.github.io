@@ -79,7 +79,7 @@
   });
 
   // Add gallery images
-  var ArrayPhotos = new Array(12)
+  var ArrayPhotos = new Array(104)
   var carouselLinks = []
   var linksContainer = $('#links')
   var baseUrl
