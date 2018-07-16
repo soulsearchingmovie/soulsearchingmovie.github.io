@@ -79,7 +79,7 @@
   });
 
   // Add gallery images
-  var ArrayPhotos = new Array(104)
+  var ArrayPhotos = new Array(100)
   var carouselLinks = []
   var linksContainer = $('#links')
   var baseUrl
@@ -89,14 +89,14 @@
 
     $('<a/>')
       .append(
-        $('<img>').prop('src', baseUrl + 'small/' + index + '.jpg').prop('class', 'img-galleries')
-      ).prop('href', baseUrl + index + '.jpg')
+        $('<img>').prop('src', baseUrl + 'small/' + 'image_' + index + '.jpg').prop('class', 'img-galleries')
+      ).prop('href', baseUrl + 'image_' +index + '.jpg')
       .prop('title', 'soul searching behind the sences')
       .prop('class', 'img-gallery-thumnail')
       .attr('data-gallery', '')
       .appendTo(linksContainer)
     carouselLinks.push({
-      href: baseUrl + index + '.jpg',
+      href: baseUrl + 'image_' + index + '.jpg',
       title: 'soul searching behind the sences'
     })
   })
